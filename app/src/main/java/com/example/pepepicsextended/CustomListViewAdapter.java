@@ -57,12 +57,12 @@ public class CustomListViewAdapter extends RecyclerView.Adapter<CustomListViewAd
         }
 
         public void setData(RowItem rowItem) {
-            /*Picasso.get()
+            Picasso.get()
                     .load(rowItem.getImageId())
                     .fit()
                     .centerCrop()
                     //.networkPolicy(NetworkPolicy.OFFLINE).noFade()
-                    .into(somePepe);*/
+                    .into(somePepe);
 
             daName.setText(rowItem.getTitle());
         }
