@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     public static String[] links = new String[10];
     Bitmap image;
     ImageView pepe;
-    private ArrayList<String> pepeLinks = new ArrayList<>();
+    List<RowItem> items = new ArrayList<>();
 
     private CardStackLayoutManager manager;
     private CustomListViewAdapter adapter;
@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private List<RowItem> addList() {
-        List<RowItem> items = new ArrayList<>();
         items.add(new RowItem("Pepe","https://external-preview.redd.it/1RYAwUdiRnc3uAlpxXteyZY2cGcvwJwTwpQjISGwrNw.png?auto=webp&s=c79a217254de72a64ae2632c82aacc649f4acb4a"));
         items.add(new RowItem("Pepe2","https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
         items.add(new RowItem("Pepe3","https://i.imgflip.com/31tu3r.png"));
@@ -54,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<String> cachedPepes = new ArrayList<>();
         StringBuilder builder = new StringBuilder();
 
-        for(int i=0;i<100;i++) {
+        for(int i=0;i<20;i++) {
             int currentID = (int) (Math.random() * 15000);
 
-            items.add(new RowItem(getRandName(builder, cachedPepes),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
+            items.add(new RowItem(getRandName(builder),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
             builder.delete(0,builder.length());
         }
 
@@ -66,13 +65,12 @@ public class MainActivity extends AppCompatActivity {
         return items;
     }
 
-    public String getRandName(StringBuilder builder, ArrayList cachedPepes)
+    public String getRandName(StringBuilder builder)
     {
         int currentID = (int) (Math.random() * 15000);
         builder.append(currentID);
         builder.append("_randomPepe_");
         builder.append(Integer.toHexString(currentID));
-        cachedPepes.add(builder.toString());
 
         return builder.toString();
     }
@@ -128,7 +126,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCardSwiped(Direction direction) {
-
             }
 
             @Override
@@ -148,7 +145,13 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCardDisappeared(View view, int position) {
-                System.out.println(position);
+                StringBuilder builder = new StringBuilder();
+                items.remove(0);
+                position = 10;
+                System.out.println(position + " " + items.size());
+                if(items.size()>20) {
+                    items.add(new RowItem(getRandName(builder),"https://cdn.wallpapersafari.com/94/31/wHOvMm.jpg"));
+                }
 
             }
         });
