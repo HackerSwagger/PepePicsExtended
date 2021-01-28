@@ -256,18 +256,9 @@ androidx/recyclerview/R.java
  androidx.recyclerview.R$string
  androidx.recyclerview.R$style
  androidx.recyclerview.R$styleable
-com/bumptech/glide/R.java
- com.bumptech.glide.R
- com.bumptech.glide.R$attr
- com.bumptech.glide.R$color
- com.bumptech.glide.R$dimen
- com.bumptech.glide.R$drawable
- com.bumptech.glide.R$id
- com.bumptech.glide.R$integer
- com.bumptech.glide.R$layout
- com.bumptech.glide.R$string
- com.bumptech.glide.R$style
- com.bumptech.glide.R$styleable
+com/example/pepepicsextended/MainActivity.java
+ com.example.pepepicsextended.MainActivity
+ com.example.pepepicsextended.MainActivity$1
 androidx/drawerlayout/R.java
  androidx.drawerlayout.R
  androidx.drawerlayout.R$attr
@@ -302,6 +293,15 @@ com/squareup/picasso/R.java
  com.squareup.picasso.R
 androidx/lifecycle/viewmodel/R.java
  androidx.lifecycle.viewmodel.R
-com/example/pepepicsextended/MainActivity.java
- com.example.pepepicsextended.MainActivity
- com.example.pepepicsextended.MainActivity$1
+com/bumptech/glide/R.java
+ com.bumptech.glide.R
+ com.bumptech.glide.R$attr
+ com.bumptech.glide.R$color
+ com.bumptech.glide.R$dimen
+ com.bumptech.glide.R$drawable
+ com.bumptech.glide.R$id
+ com.bumptech.glide.R$integer
+ com.bumptech.glide.R$layout
+ com.bumptech.glide.R$string
+ com.bumptech.glide.R$style
+ com.bumptech.glide.R$styleable

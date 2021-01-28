@@ -6,55 +6,55 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml
+8-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml
+9-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:5:5-66
-11-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:7:5-21:19
+13-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:7:5-21:19
 14        android:allowBackup="true"
-14-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:8:13-39
+14-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:8:13-39
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0] C:\Users\Frede\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:9:13-47
+17-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:9:13-47
 18        android:label="@string/app_name"
-18-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:10:13-45
+18-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:10:13-45
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:11:13-58
+19-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:11:13-58
 20        android:supportsRtl="true"
-20-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:12:13-39
+20-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:12:13-39
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
-22-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:13:13-44
+22-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:13:13-44
 23        <activity android:name="com.example.pepepicsextended.MainActivity" >
-23-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:14:9-20:20
-23-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:14:19-47
+23-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:14:9-20:20
+23-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:14:19-47
 24            <intent-filter>
-24-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:15:13-19:29
+24-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:15:13-19:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:16:17-68
-25-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:16:25-66
+25-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:16:17-68
+25-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:16:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:18:17-76
-27-->C:\Users\Frede\IntelliJIDEAProjects\PepePicsExtended\app\src\main\AndroidManifest.xml:18:27-74
+27-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:18:17-76
+27-->C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:18:27-74
 28            </intent-filter>
 29        </activity>
 30
 31        <provider
-31-->[com.squareup.picasso:picasso:2.71828] C:\Users\Frede\.gradle\caches\transforms-3\78b4befb1aa3a707a2b94f14951b65f8\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+31-->[com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 32            android:name="com.squareup.picasso.PicassoProvider"
-32-->[com.squareup.picasso:picasso:2.71828] C:\Users\Frede\.gradle\caches\transforms-3\78b4befb1aa3a707a2b94f14951b65f8\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+32-->[com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 33            android:authorities="com.example.pepepicsextended.com.squareup.picasso"
-33-->[com.squareup.picasso:picasso:2.71828] C:\Users\Frede\.gradle\caches\transforms-3\78b4befb1aa3a707a2b94f14951b65f8\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+33-->[com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 34            android:exported="false" />
-34-->[com.squareup.picasso:picasso:2.71828] C:\Users\Frede\.gradle\caches\transforms-3\78b4befb1aa3a707a2b94f14951b65f8\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+34-->[com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 35    </application>
 36
 37</manifest>

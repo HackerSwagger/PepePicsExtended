@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder builder = new StringBuilder();
 
         for(int i=0;i<100;i++) {
-
+            int currentID = (int) (Math.random() * 15000);
 
             items.add(new RowItem(getRandName(builder, cachedPepes),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
             builder.delete(0,builder.length());
