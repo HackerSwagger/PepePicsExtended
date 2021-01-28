@@ -51,6 +51,23 @@ public class MainActivity extends AppCompatActivity {
         items.add(new RowItem("Pepe3","https://i.imgflip.com/31tu3r.png"));
         items.add(new RowItem("Pepe4","https://pngimg.com/uploads/snoop_dogg/snoop_dogg_PNG20.png"));
 
+        ArrayList<String> cachedPepes = new ArrayList<>();
+        StringBuilder builder = new StringBuilder();
+
+        for(int i=0;i<100;i++) {
+            int currentID = (int) (Math.random() * 15000);
+
+            builder.append(currentID);
+            builder.append("_randomPepe_");
+            builder.append(Integer.toHexString(currentID));
+            cachedPepes.add(builder.toString());
+            builder.delete(0,builder.length());
+
+            items.add(new RowItem(cachedPepes.get(cachedPepes.size()-1),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
+        }
+
+        System.out.println("Hello");
+
         return items;
     }
 
@@ -125,6 +142,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCardDisappeared(View view, int position) {
+                System.out.println(position);
 
             }
         });

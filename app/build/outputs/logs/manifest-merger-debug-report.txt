@@ -1,0 +1,206 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\c54857fb02223d3f510dd3dc6d000abd\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\leon\.gradle\caches\transforms-3\6f9ca87f5197d8e5df01cfea11f2a685\transformed\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leon\.gradle\caches\transforms-3\38c5969af48148cbba338be87ba3e4cc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.yuyakaido.android:card-stack-view:2.3.4] C:\Users\leon\.gradle\caches\transforms-3\1ea2d957e13ed6b51416545cb1262cd0\transformed\card-stack-view-2.3.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\0f30988b08f124bc178ff8e6eec20de5\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.lorentzos.swipecards:library:1.0.9] C:\Users\leon\.gradle\caches\transforms-3\abe52229f9d91f19f9821280bf1c7370\transformed\library-1.0.9\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\598205cdb6806ac3d2ddc5ce55bd0ef2\transformed\glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\18adc4fbc0386cb30dca33a45c1dc8fb\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\7344fe93914774e5f6077285db078c3c\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\245ac0e3c2c5e71bc4042a107c2ccbd0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\cbc92c7e01aa67dfab9a66aa252a5079\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\leon\.gradle\caches\transforms-3\18c0fa10548c003325b20fd4d6464dca\transformed\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\94e8cf4196b852f502c5a16a9367eea9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\d472187c520ee24d95561c0076f2e419\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\d2c0f40c208c3b6c5e69abd6e1ae8120\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\1a7257c487a857c56fb83e1cf1bd1a0d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\41cad467565c83cf7f8dbb00e3414105\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\09727b4bc0c1da96ecfc1d2c8dcd9a9e\transformed\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\b75b7b949e1b1ce0ab8e15bcd2bfcd4e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\e4819e5e25658b18e9d64b124493f3e0\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\f1ed76ba6417e6c4ab7dbf48c93a8788\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\3daf845804908572cd4e78a65b6153dc\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\de26af35140898fc4cc04d4d07508d76\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\642e9a1e98d22380ff996a71f30ec350\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\dd45ad1a1df95defe1c60bc582de4917\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\3ed308996322c53f2455c02578a734e3\transformed\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\4cd512051a86af5d7552dab06bf23b07\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\541b7339dc3a912f2c67b30227080cb4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\be835413586eb0d9f43fc71bba864991\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\a4c1a64ca0dad85af7680b70188e0c84\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\bdb14229d75bceca575ee98d89d9596c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\548cfdc5ed0cdc5b9c5baad1ba5a22c3\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\6bc4ac5bf5b260627de82ef079fe1fd1\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\ae8cd1303ff04c9711f7ca384d7597d1\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\36347543a32519fc19e513afa2e4544c\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:3:11-49
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:7:5-21:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\c54857fb02223d3f510dd3dc6d000abd\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\c54857fb02223d3f510dd3dc6d000abd\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leon\.gradle\caches\transforms-3\38c5969af48148cbba338be87ba3e4cc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leon\.gradle\caches\transforms-3\38c5969af48148cbba338be87ba3e4cc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.lorentzos.swipecards:library:1.0.9] C:\Users\leon\.gradle\caches\transforms-3\abe52229f9d91f19f9821280bf1c7370\transformed\library-1.0.9\AndroidManifest.xml:12:5-20
+MERGED from [com.lorentzos.swipecards:library:1.0.9] C:\Users\leon\.gradle\caches\transforms-3\abe52229f9d91f19f9821280bf1c7370\transformed\library-1.0.9\AndroidManifest.xml:12:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\598205cdb6806ac3d2ddc5ce55bd0ef2\transformed\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\598205cdb6806ac3d2ddc5ce55bd0ef2\transformed\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\3daf845804908572cd4e78a65b6153dc\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\3daf845804908572cd4e78a65b6153dc\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\3ed308996322c53f2455c02578a734e3\transformed\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\3ed308996322c53f2455c02578a734e3\transformed\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:12:13-39
+	android:label
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:10:13-45
+	android:roundIcon
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:11:13-58
+	android:icon
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:9:13-47
+	android:allowBackup
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:8:13-39
+	android:theme
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:13:13-44
+activity#com.example.pepepicsextended.MainActivity
+ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:16:17-68
+	android:name
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\c54857fb02223d3f510dd3dc6d000abd\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\c54857fb02223d3f510dd3dc6d000abd\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\leon\.gradle\caches\transforms-3\6f9ca87f5197d8e5df01cfea11f2a685\transformed\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\leon\.gradle\caches\transforms-3\6f9ca87f5197d8e5df01cfea11f2a685\transformed\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leon\.gradle\caches\transforms-3\38c5969af48148cbba338be87ba3e4cc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\leon\.gradle\caches\transforms-3\38c5969af48148cbba338be87ba3e4cc\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.yuyakaido.android:card-stack-view:2.3.4] C:\Users\leon\.gradle\caches\transforms-3\1ea2d957e13ed6b51416545cb1262cd0\transformed\card-stack-view-2.3.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.yuyakaido.android:card-stack-view:2.3.4] C:\Users\leon\.gradle\caches\transforms-3\1ea2d957e13ed6b51416545cb1262cd0\transformed\card-stack-view-2.3.4\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\0f30988b08f124bc178ff8e6eec20de5\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\0f30988b08f124bc178ff8e6eec20de5\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.lorentzos.swipecards:library:1.0.9] C:\Users\leon\.gradle\caches\transforms-3\abe52229f9d91f19f9821280bf1c7370\transformed\library-1.0.9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.lorentzos.swipecards:library:1.0.9] C:\Users\leon\.gradle\caches\transforms-3\abe52229f9d91f19f9821280bf1c7370\transformed\library-1.0.9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\598205cdb6806ac3d2ddc5ce55bd0ef2\transformed\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\598205cdb6806ac3d2ddc5ce55bd0ef2\transformed\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\18adc4fbc0386cb30dca33a45c1dc8fb\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\18adc4fbc0386cb30dca33a45c1dc8fb\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\7344fe93914774e5f6077285db078c3c\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\7344fe93914774e5f6077285db078c3c\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\245ac0e3c2c5e71bc4042a107c2ccbd0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\245ac0e3c2c5e71bc4042a107c2ccbd0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\cbc92c7e01aa67dfab9a66aa252a5079\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\cbc92c7e01aa67dfab9a66aa252a5079\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\leon\.gradle\caches\transforms-3\18c0fa10548c003325b20fd4d6464dca\transformed\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\leon\.gradle\caches\transforms-3\18c0fa10548c003325b20fd4d6464dca\transformed\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\94e8cf4196b852f502c5a16a9367eea9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\94e8cf4196b852f502c5a16a9367eea9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\d472187c520ee24d95561c0076f2e419\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\d472187c520ee24d95561c0076f2e419\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\d2c0f40c208c3b6c5e69abd6e1ae8120\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\d2c0f40c208c3b6c5e69abd6e1ae8120\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\1a7257c487a857c56fb83e1cf1bd1a0d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\1a7257c487a857c56fb83e1cf1bd1a0d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\41cad467565c83cf7f8dbb00e3414105\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\41cad467565c83cf7f8dbb00e3414105\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\09727b4bc0c1da96ecfc1d2c8dcd9a9e\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\09727b4bc0c1da96ecfc1d2c8dcd9a9e\transformed\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\b75b7b949e1b1ce0ab8e15bcd2bfcd4e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\b75b7b949e1b1ce0ab8e15bcd2bfcd4e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\e4819e5e25658b18e9d64b124493f3e0\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\e4819e5e25658b18e9d64b124493f3e0\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\f1ed76ba6417e6c4ab7dbf48c93a8788\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\f1ed76ba6417e6c4ab7dbf48c93a8788\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\6f88ec99438e7948bd690c3dd9919574\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\3daf845804908572cd4e78a65b6153dc\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\leon\.gradle\caches\transforms-3\3daf845804908572cd4e78a65b6153dc\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\de26af35140898fc4cc04d4d07508d76\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\de26af35140898fc4cc04d4d07508d76\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\642e9a1e98d22380ff996a71f30ec350\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\642e9a1e98d22380ff996a71f30ec350\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\dd45ad1a1df95defe1c60bc582de4917\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\dd45ad1a1df95defe1c60bc582de4917\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\3ed308996322c53f2455c02578a734e3\transformed\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\leon\.gradle\caches\transforms-3\3ed308996322c53f2455c02578a734e3\transformed\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\4cd512051a86af5d7552dab06bf23b07\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\4cd512051a86af5d7552dab06bf23b07\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\541b7339dc3a912f2c67b30227080cb4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\541b7339dc3a912f2c67b30227080cb4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\be835413586eb0d9f43fc71bba864991\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\be835413586eb0d9f43fc71bba864991\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\a4c1a64ca0dad85af7680b70188e0c84\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\a4c1a64ca0dad85af7680b70188e0c84\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\bdb14229d75bceca575ee98d89d9596c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leon\.gradle\caches\transforms-3\bdb14229d75bceca575ee98d89d9596c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\548cfdc5ed0cdc5b9c5baad1ba5a22c3\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\548cfdc5ed0cdc5b9c5baad1ba5a22c3\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\6bc4ac5bf5b260627de82ef079fe1fd1\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\6bc4ac5bf5b260627de82ef079fe1fd1\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\ae8cd1303ff04c9711f7ca384d7597d1\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\ae8cd1303ff04c9711f7ca384d7597d1\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\36347543a32519fc19e513afa2e4544c\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\leon\.gradle\caches\transforms-3\36347543a32519fc19e513afa2e4544c\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\leon\Desktop\BeckhoffProjekt_GoodGears_by_LeonM\GoodGears\Project Data(IntelliJ IDEA Community 2019)\PepePicsExtended\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\leon\.gradle\caches\transforms-3\7b6330831dd3c17f5599601bd5094cdf\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
