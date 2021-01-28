@@ -55,15 +55,8 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder builder = new StringBuilder();
 
         for(int i=0;i<100;i++) {
-            int currentID = (int) (Math.random() * 15000);
-
-            builder.append(currentID);
-            builder.append("_randomPepe_");
-            builder.append(Integer.toHexString(currentID));
-            cachedPepes.add(builder.toString());
+            items.add(new RowItem(getRandName(builder, cachedPepes),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
             builder.delete(0,builder.length());
-
-            items.add(new RowItem(cachedPepes.get(cachedPepes.size()-1),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
         }
 
         System.out.println("Hello");
@@ -109,6 +102,17 @@ public class MainActivity extends AppCompatActivity {
         links[9] = "https://www.westfalen-blatt.de/var/storage/images/wb/startseite/owl/lokales/kreis-guetersloh/verl/2629384-weihnachtsmarkt-im-verler-gymnasium-bietet-ein-aussergewoehnliches-programm-schueler-lassen-seifenblasen-brennen/75384262-1-ger-DE/Weihnachtsmarkt-im-Verler-Gymnasium-bietet-ein-aussergewoehnliches-Programm-Schueler-lassen-Seifenblasen-brennen_image_630_420f_wn.jpg";
 
         cacheFrogs();
+    }
+
+    public String getRandName(StringBuilder builder, ArrayList cachedPepes)
+    {
+        int currentID = (int) (Math.random() * 15000);
+        builder.append(currentID);
+        builder.append("_randomPepe_");
+        builder.append(Integer.toHexString(currentID));
+        cachedPepes.add(builder.toString());
+
+        return builder.toString();
     }
 
     public void initializeCards() {
