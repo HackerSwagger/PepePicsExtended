@@ -67,4 +67,12 @@ public class CustomListViewAdapter extends RecyclerView.Adapter<CustomListViewAd
             daName.setText(rowItem.getTitle());
         }
     }
+
+    public List<RowItem> getItems() {
+        return items;
+    }
+
+    public void setItems(List<RowItem> items) {
+        this.items = items;
+    }
 }

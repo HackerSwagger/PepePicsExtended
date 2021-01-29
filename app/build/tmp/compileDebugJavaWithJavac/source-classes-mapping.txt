@@ -28,9 +28,8 @@ com/example/pepepicsextended/RowItem.java
  com.example.pepepicsextended.RowItem
 androidx/print/R.java
  androidx.print.R
-com/example/pepepicsextended/CustomListViewAdapter.java
- com.example.pepepicsextended.CustomListViewAdapter
- com.example.pepepicsextended.CustomListViewAdapter$ViewHolder
+androidx/lifecycle/viewmodel/R.java
+ androidx.lifecycle.viewmodel.R
 androidx/cursoradapter/R.java
  androidx.cursoradapter.R
 androidx/vectordrawable/R.java
@@ -300,8 +299,11 @@ androidx/localbroadcastmanager/R.java
  androidx.localbroadcastmanager.R
 com/squareup/picasso/R.java
  com.squareup.picasso.R
-androidx/lifecycle/viewmodel/R.java
- androidx.lifecycle.viewmodel.R
+com/example/pepepicsextended/CustomListViewAdapter.java
+ com.example.pepepicsextended.CustomListViewAdapter
+ com.example.pepepicsextended.CustomListViewAdapter$ViewHolder
+com/example/pepepicsextended/CardStackCallback.java
+ com.example.pepepicsextended.CardStackCallback
 com/example/pepepicsextended/MainActivity.java
  com.example.pepepicsextended.MainActivity
  com.example.pepepicsextended.MainActivity$1

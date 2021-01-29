@@ -1,13 +1,18 @@
 package com.example.pepepicsextended;
 
 import android.graphics.Bitmap;
+import android.inputmethodservice.Keyboard;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.DiffUtil;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.yuyakaido.android.cardstackview.*;
@@ -23,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public static String[] links = new String[10];
     Bitmap image;
     ImageView pepe;
+
     List<RowItem> items = new ArrayList<>();
 
     private CardStackLayoutManager manager;
@@ -31,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<String> al;
     private ArrayAdapter<String> arrayAdapter;
     private int i;
+
+    String TAG = "tag";
 
 
     @Override
@@ -45,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private List<RowItem> addList() {
+
         items.add(new RowItem("Pepe","https://external-preview.redd.it/1RYAwUdiRnc3uAlpxXteyZY2cGcvwJwTwpQjISGwrNw.png?auto=webp&s=c79a217254de72a64ae2632c82aacc649f4acb4a"));
         items.add(new RowItem("Pepe2","https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
         items.add(new RowItem("Pepe3","https://i.imgflip.com/31tu3r.png"));
@@ -59,8 +68,6 @@ public class MainActivity extends AppCompatActivity {
             items.add(new RowItem(getRandName(builder),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
             builder.delete(0,builder.length());
         }
-
-        System.out.println("Hello");
 
         return items;
     }
@@ -115,44 +122,66 @@ public class MainActivity extends AppCompatActivity {
         cacheFrogs();
     }
 
+    private void paginate() {
+        List<RowItem> old = adapter.getItems();
+        List<RowItem> baru = new ArrayList<>(addList());
+        CardStackCallback callback = new CardStackCallback(old, baru);
+        DiffUtil.DiffResult hasil = DiffUtil.calculateDiff(callback);
+        adapter.setItems(baru);
+        hasil.dispatchUpdatesTo(adapter);
+    }
+
     public void initializeCards() {
         CardStackView cardStackView = findViewById(R.id.pepeStack);
 
         manager = new CardStackLayoutManager(this, new CardStackListener() {
             @Override
             public void onCardDragging(Direction direction, float ratio) {
-
+                Log.d(TAG, "onCardDragging: d=" + direction.name() + " ratio=" + ratio);
             }
 
             @Override
             public void onCardSwiped(Direction direction) {
+                Log.d(TAG, "onCardSwiped: p=" + manager.getTopPosition() + " d=" + direction);
+                if (direction == Direction.Right){
+                    Toast.makeText(MainActivity.this, "Direction Right", Toast.LENGTH_SHORT).show();
+                }
+                if (direction == Direction.Top){
+                    Toast.makeText(MainActivity.this, "Direction Top", Toast.LENGTH_SHORT).show();
+                }
+                if (direction == Direction.Left){
+                    Toast.makeText(MainActivity.this, "Direction Left", Toast.LENGTH_SHORT).show();
+                }
+                if (direction == Direction.Bottom){
+                    Toast.makeText(MainActivity.this, "Direction Bottom", Toast.LENGTH_SHORT).show();
+                }
+
+                // Paginating
+                if (manager.getTopPosition() == adapter.getItemCount() - 5){
+                        paginate();
+                }
             }
 
             @Override
             public void onCardRewound() {
-
+                Log.d(TAG, "onCardRewound: " + manager.getTopPosition());
             }
 
             @Override
             public void onCardCanceled() {
-
+                Log.d(TAG, "onCardRewound: " + manager.getTopPosition());
             }
 
             @Override
             public void onCardAppeared(View view, int position) {
-
+                TextView tv = view.findViewById(R.id.item_name);
+                Log.d(TAG, "onCardAppeared: " + position + ", nama: " + tv.getText());
             }
 
             @Override
             public void onCardDisappeared(View view, int position) {
-                StringBuilder builder = new StringBuilder();
-                items.remove(0);
-                position = 10;
-                System.out.println(position + " " + items.size());
-                if(items.size()>20) {
-                    items.add(new RowItem(getRandName(builder),"https://cdn.wallpapersafari.com/94/31/wHOvMm.jpg"));
-                }
-
+                TextView tv = view.findViewById(R.id.item_name);
+                Log.d(TAG, "onCardAppeared: " + position + ", name: " + tv.getText());
             }
         });
 
