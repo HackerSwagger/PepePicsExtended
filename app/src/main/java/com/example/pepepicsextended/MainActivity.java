@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private List<RowItem> addList() {
+        List<RowItem> items = new ArrayList<>();
 
         items.add(new RowItem("Pepe","https://external-preview.redd.it/1RYAwUdiRnc3uAlpxXteyZY2cGcvwJwTwpQjISGwrNw.png?auto=webp&s=c79a217254de72a64ae2632c82aacc649f4acb4a"));
         items.add(new RowItem("Pepe2","https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<String> cachedPepes = new ArrayList<>();
         StringBuilder builder = new StringBuilder();
 
-        for(int i=0;i<20;i++) {
+        for(int i=0;i<10;i++) {
             int currentID = (int) (Math.random() * 15000);
 
             items.add(new RowItem(getRandName(builder),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
@@ -132,17 +133,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void initializeCards() {
-        CardStackView cardStackView = findViewById(R.id.pepeStack);
+        final CardStackView cardStackView = findViewById(R.id.pepeStack);
 
         manager = new CardStackLayoutManager(this, new CardStackListener() {
             @Override
             public void onCardDragging(Direction direction, float ratio) {
-                Log.d(TAG, "onCardDragging: d=" + direction.name() + " ratio=" + ratio);
+                //Log.d(TAG, "onCardDragging: d=" + direction.name() + " ratio=" + ratio);
             }
 
             @Override
             public void onCardSwiped(Direction direction) {
-                Log.d(TAG, "onCardSwiped: p=" + manager.getTopPosition() + " d=" + direction);
+                //Log.d(TAG, "onCardSwiped: p=" + manager.getTopPosition() + " d=" + direction);
                 if (direction == Direction.Right){
                     Toast.makeText(MainActivity.this, "Direction Right", Toast.LENGTH_SHORT).show();
                 }
@@ -158,7 +159,15 @@ public class MainActivity extends AppCompatActivity {
 
                 // Paginating
                 if (manager.getTopPosition() == adapter.getItemCount() - 5){
-                        paginate();
+                        //paginate();
+                }
+                if(manager.getTopPosition() == adapter.getItemCount()) {
+                    cardStackView.setVisibility(View.GONE);
+                    adapter = new CustomListViewAdapter(addList());
+                    cardStackView.setAdapter(adapter);
+                    manager.setTopPosition(0);
+                    cardStackView.setVisibility(View.VISIBLE);
+                    System.out.println("Ending...");
                 }
             }
 
@@ -190,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
         manager.setTranslationInterval(8.0f);
         manager.setScaleInterval(0.95f);
         manager.setSwipeThreshold(0.3f);
-        manager.setMaxDegree(20.0f);
+        manager.setMaxDegree(40.0f);
         manager.setDirections(Direction.FREEDOM);
         manager.setCanScrollHorizontal(true);
         manager.setSwipeableMethod(SwipeableMethod.Manual);
@@ -199,6 +208,7 @@ public class MainActivity extends AppCompatActivity {
         cardStackView.setLayoutManager(manager);
         cardStackView.setAdapter(adapter);
         cardStackView.setItemAnimator(new DefaultItemAnimator());
+
 
     }
 }
