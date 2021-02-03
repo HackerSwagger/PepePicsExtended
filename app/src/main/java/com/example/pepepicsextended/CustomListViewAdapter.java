@@ -59,7 +59,7 @@ public class CustomListViewAdapter extends RecyclerView.Adapter<CustomListViewAd
 
         public void setData(RowItem rowItem) {
 
-            File pepePic = new File("E:/frens/Frens-LessDuplicates/abcd.jpg");
+            File pepePic = new File("file://E:/frens/Frens-LessDuplicates/abcd.jpg");
             System.out.println(pepePic.exists());
 
             Picasso.get()

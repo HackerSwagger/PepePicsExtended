@@ -1,3 +1,2 @@
-include ':pepeapp'
 include ':app'
 rootProject.name='PepePicsExtended'

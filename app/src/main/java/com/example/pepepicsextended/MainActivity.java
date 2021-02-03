@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             File pepePic = new File("E:/frens/Frens-LessDuplicates/abcd.jpg");
             System.out.println(pepePic.exists());
 
-            items.add(new RowItem(pepeName,"file://DESKTOP-EB6M3NH/Frens-LessDuplicates/Frens/abcd.txt"));
+            items.add(new RowItem(pepeName,"https://i.imgflip.com/31tu3r.png"));
             builder.delete(0,builder.length());
         }
         items.add(new RowItem("Pepe","https://external-preview.redd.it/1RYAwUdiRnc3uAlpxXteyZY2cGcvwJwTwpQjISGwrNw.png?ato=webp&s=c79a217254de72a64ae2632c82aacc649f4acb4au"));
