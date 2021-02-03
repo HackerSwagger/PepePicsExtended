@@ -17,6 +17,7 @@ import com.squareup.picasso.Callback;
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 
+import java.io.File;
 import java.util.List;
 
 public class CustomListViewAdapter extends RecyclerView.Adapter<CustomListViewAdapter.ViewHolder> {
@@ -57,6 +58,10 @@ public class CustomListViewAdapter extends RecyclerView.Adapter<CustomListViewAd
         }
 
         public void setData(RowItem rowItem) {
+
+            File pepePic = new File("E:/frens/Frens-LessDuplicates/abcd.jpg");
+            System.out.println(pepePic.exists());
+
             Picasso.get()
                     .load(rowItem.getImageId())
                     .fit()

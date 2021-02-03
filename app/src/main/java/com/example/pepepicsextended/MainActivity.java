@@ -3,6 +3,7 @@ package com.example.pepepicsextended;
 import android.graphics.Bitmap;
 import android.inputmethodservice.Keyboard;
 import android.os.Bundle;
+import android.os.FileObserver;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
@@ -17,6 +18,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.yuyakaido.android.cardstackview.*;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,9 +68,15 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<10;i++) {
             int currentID = (int) (Math.random() * 15000);
 
-            items.add(new RowItem(getRandName(builder),"https://png.pngitem.com/pimgs/s/107-1078027_pepe-meme-rarepepe-terrorist-football-pepe-the-frog.png"));
+            String pepeName = getRandName(builder);
+
+            File pepePic = new File("E:/frens/Frens-LessDuplicates/abcd.jpg");
+            System.out.println(pepePic.exists());
+
+            items.add(new RowItem(pepeName,"file://DESKTOP-EB6M3NH/Frens-LessDuplicates/Frens/abcd.txt"));
             builder.delete(0,builder.length());
         }
+        items.add(new RowItem("Pepe","https://external-preview.redd.it/1RYAwUdiRnc3uAlpxXteyZY2cGcvwJwTwpQjISGwrNw.png?ato=webp&s=c79a217254de72a64ae2632c82aacc649f4acb4au"));
 
         return items;
     }
@@ -120,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         links[8] = "https://cdn.wallpapersafari.com/94/31/wHOvMm.jpg";
         links[9] = "https://www.westfalen-blatt.de/var/storage/images/wb/startseite/owl/lokales/kreis-guetersloh/verl/2629384-weihnachtsmarkt-im-verler-gymnasium-bietet-ein-aussergewoehnliches-programm-schueler-lassen-seifenblasen-brennen/75384262-1-ger-DE/Weihnachtsmarkt-im-Verler-Gymnasium-bietet-ein-aussergewoehnliches-Programm-Schueler-lassen-Seifenblasen-brennen_image_630_420f_wn.jpg";
 
-        cacheFrogs();
+        //cacheFrogs();
     }
 
     private void paginate() {
@@ -161,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
                 if (manager.getTopPosition() == adapter.getItemCount() - 5){
                         //paginate();
                 }
-                if(manager.getTopPosition() == adapter.getItemCount()) {
+                if(manager.getTopPosition() == adapter.getItemCount()-1) {
                     cardStackView.setVisibility(View.GONE);
                     adapter = new CustomListViewAdapter(addList());
                     cardStackView.setAdapter(adapter);
